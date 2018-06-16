@@ -1,0 +1,70 @@
+.placeholder {
+  width: 0;
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px; }
+  .placeholder, .placeholder:after {
+    display: block;
+    background: rgba(180, 180, 180, 0.25); }
+  .placeholder.placeholder-animate:after {
+    content: '';
+    position: absolute;
+    opacity: 0.25;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out; }
+  .placeholder.placeholder-animate:after {
+    background: linear-gradient(to left, #bbb, #eee);
+    right: 100%;
+    animation-name: slide-gradient-right; }
+
+@keyframes slide-gradient-right {
+  0% {
+    right: 100%; }
+  100% {
+    right: -100%; } }
+  .placeholder.placeholder-sm {
+    width: 100px; }
+  .placeholder.placeholder-md {
+    width: 200px; }
+  .placeholder.placeholder-lg {
+    width: 400px; }
+  .placeholder.placeholder-0 {
+    width: 12px; }
+  .placeholder.placeholder-1 {
+    width: 25px; }
+  .placeholder.placeholder-2 {
+    width: 50px; }
+  .placeholder.placeholder-3 {
+    width: 75px; }
+  .placeholder.placeholder-4 {
+    width: 100px; }
+  .placeholder.placeholder-5 {
+    width: 125px; }
+  .placeholder.placeholder-6 {
+    width: 150px; }
+  .placeholder.placeholder-7 {
+    width: 175px; }
+  .placeholder.placeholder-8 {
+    width: 200px; }
+  .placeholder.placeholder-9 {
+    width: 225px; }
+  .placeholder.placeholder-10 {
+    width: 250px; }
+  .placeholder.placeholder-11 {
+    width: 275px; }
+  .placeholder.placeholder-12 {
+    width: 300px; }
+  .placeholder.placeholder-13 {
+    width: 325px; }
+  .placeholder.placeholder-14 {
+    width: 350px; }
+  .placeholder.placeholder-15 {
+    width: 375px; }
+  .placeholder.placeholder-16 {
+    width: 400px; }
